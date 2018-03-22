@@ -1,0 +1,3 @@
+[submodule "react_native"]
+	path = react_native
+	url = https://github.com/MrDreamCacher/react_native.git
