@@ -1,0 +1,44 @@
+{
+  "sub": {
+    "app": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/ZSQHost.git"
+    },
+    "framework": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/Framework_android.git"
+    },
+    "thirdparty": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/Framework_android.git"
+    },
+    "framework_base": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/Framework_base.git"
+    },
+    "common": {
+      "branch":"master",
+      "repo": "https://github.com/MrDreamCacher/Common_android.git"
+    },
+    "react_native": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/react_native.git"
+    },
+    "react_native/Login": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/Login_rn.git"
+    },
+    "react_native/Common": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/Common_rn.git"
+    },
+    "react_native/Theme": {
+      "branch": "master",
+      "repo": "https://github.com/MrDreamCacher/Theme_rn.git"
+    },
+    "git_manager": {
+      "branch": "master",
+      "repo": "http://10.20.11.218/FFProject/fmanager_libs.git"
+    }
+  }
+}

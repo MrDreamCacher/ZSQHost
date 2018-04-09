@@ -1,3 +1,9 @@
 [submodule "react_native"]
 	path = react_native
 	url = https://github.com/MrDreamCacher/react_native.git
+[submodule "framework"]
+	path = framework
+	url = https://github.com/MrDreamCacher/Framework_android.git
+[submodule "git_manager"]
+	path = git_manager
+	url = https://github.com/MrDreamCacher/GitManager.git

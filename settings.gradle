@@ -1,2 +1,3 @@
 include ':app', ':framework'
-include ':framework:framework_base'
+include ':framework:framework_base', ':framework:uikit', ':framework:common', ':framework:thirdparty'
+
