@@ -24,15 +24,15 @@
       "branch": "master",
       "repo": "https://github.com/MrDreamCacher/react_native.git"
     },
-    "react_native/Login": {
+    "react_native/login": {
       "branch": "master",
       "repo": "https://github.com/MrDreamCacher/Login_rn.git"
     },
-    "react_native/Common": {
+    "react_native/common": {
       "branch": "master",
       "repo": "https://github.com/MrDreamCacher/Common_rn.git"
     },
-    "react_native/Theme": {
+    "react_native/theme": {
       "branch": "master",
       "repo": "https://github.com/MrDreamCacher/Theme_rn.git"
     },

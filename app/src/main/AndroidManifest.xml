@@ -2,18 +2,79 @@
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name=".main.ZSQApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".main.ZSQApplication"
         android:theme="@style/AppTheme">
         <activity android:name=".main.activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:name="main.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+        <activity
+            android:name="main.activity.SlidingMenuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="main.activity.SlidingMenuActivity2"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+
+        <activity
+            android:name="main.activity.SlidingMenuActivity3"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+
+        <activity
+            android:name="main.activity.ScrollPanelActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+
+        <activity
+            android:name="main.activity.FlowLayoutActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+
+        <activity
+            android:name="main.activity.RippleEffectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+
+        <activity
+            android:name="main.activity.PathMeasureActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
+        </activity>
+
+        <activity
+            android:name="main.activity.BottomSheetActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme">
         </activity>
     </application>
 </manifest>
